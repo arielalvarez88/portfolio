@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "tether": "^1.3.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel js/react -d lib",
+    "bundle" : "browserify lib/all.js -o lib/all-bundle.js"
+  },
+  "author": "Ariel Alvarez",
+  "license": "ISC"
+}

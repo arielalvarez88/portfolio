@@ -1,0 +1,6 @@
+{
+    "commands": [
+        "*.jsx : npm run compile",
+        "*.jsx : npm run bundle"
+    ]
+}

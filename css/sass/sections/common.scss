@@ -1,0 +1,28 @@
+body{
+    padding-top: 75px;
+}
+
+.section-header{
+    padding-top: 40px;
+    margin-top: -40px;
+
+    h2{
+      text-align: center;  
+    }
+
+
+}
+
+
+
+.category {
+  height: 600px;
+}
+
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
