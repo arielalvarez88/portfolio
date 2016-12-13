@@ -1,1 +1,34 @@
-@import "./sections/common"
+/* ============================================================ *\
+
+  #MAIN
+
+  Author:  Ariel Alvarez
+  Website: You are on it
+
+/* ============================================================ */
+
+/**
+* CONTENTS
+* 
+* SASS
+* 
+* 
+* SECTIONS
+* 
+* THEMES
+* 
+* SECTIONS
+*
+*/
+
+
+
+
+@import "c:/development/portfolio/css/sass/ie.scss";
+@import "c:/development/portfolio/css/sass/print.scss";
+@import "c:/development/portfolio/css/sass/screen.scss";
+@import "c:/development/portfolio/css/sass/var/sections/common.scss";
+@import "c:/development/portfolio/css/sass/src/widgets/themes/AccordionPanel.scss";
+@import "c:/development/portfolio/css/sass/src/sections/common.scss";
+@import "c:/development/portfolio/css/sass/src/sections/InfoSection.scss";
+@import "c:/development/portfolio/css/sass/src/sections/SkillsSection.scss";

@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "watch": "*.jsx",
+      "base": "src",
+      "command": "sh ./compile.sh"
+    }
+  ],
+  "config": {
+   "showSuccess": true,
+   "autohideSuccess": true,
+   "autohideSuccessTimeout": 1200
+ }
+}

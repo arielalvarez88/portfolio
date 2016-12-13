@@ -1,28 +1,177 @@
-/* line 1, sass/sections/common.scss */
+/* ============================================================ *\
+
+  #MAIN
+
+  Author:  Ariel Alvarez
+  Website: You are on it
+
+/* ============================================================ */
+/**
+* CONTENTS
+* 
+* SASS
+* 
+* 
+* SECTIONS
+* 
+* THEMES
+* 
+* SECTIONS
+*
+*/
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, sass/src/widgets/themes/AccordionPanel.scss */
+.accordion-panel .accordion-panel-logo {
+  width: 3.3rem;
+  heigth: auto;
+  margin: 0 10px;
+}
+/* line 8, sass/src/widgets/themes/AccordionPanel.scss */
+.accordion-panel .title-link {
+  display: table;
+}
+/* line 11, sass/src/widgets/themes/AccordionPanel.scss */
+.accordion-panel .title-link > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 1, sass/src/sections/common.scss */
+html {
+  font-size: 18px;
+}
+
+/* line 5, sass/src/sections/common.scss */
+* {
+  font-size: 1rem;
+}
+
+/* line 9, sass/src/sections/common.scss */
 body {
   padding-top: 75px;
 }
 
-/* line 5, sass/sections/common.scss */
+/* line 14, sass/src/sections/common.scss */
 .section-header {
   padding-top: 40px;
   margin-top: -40px;
+  margin-bottom: 40px;
 }
-/* line 9, sass/sections/common.scss */
+/* line 19, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
+  font-size: 3.4rem;
 }
 
-/* line 18, sass/sections/common.scss */
+/* line 27, sass/src/sections/common.scss */
+.panel-heading img {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 32, sass/src/sections/common.scss */
 .category {
   height: 600px;
 }
 
-/* line 22, sass/sections/common.scss */
+/* line 36, sass/src/sections/common.scss */
 *[id]:before {
   display: block;
   content: " ";
   margin-top: -75px;
   height: 75px;
   visibility: hidden;
+}
+
+/* line 44, sass/src/sections/common.scss */
+.vertical-text {
+  transform: rotate(-90deg);
+  text-align: center;
+}
+
+/* line 3, sass/src/sections/InfoSection.scss */
+.sections-infosection td.vertical-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* line 2, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .theme-image {
+  margin: 10px 0;
 }
