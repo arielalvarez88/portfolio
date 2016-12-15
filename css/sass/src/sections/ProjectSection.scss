@@ -1,0 +1,10 @@
+@mixin sections-projectsection(){
+  .project{
+    margin: 20px 0;
+  }
+
+}
+
+.sections-projectsection{
+  @include sections-projectsection();
+}

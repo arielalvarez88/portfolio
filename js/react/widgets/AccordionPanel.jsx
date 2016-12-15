@@ -26,7 +26,10 @@ export class AccordionPanel extends React.Component{
       </div>
       <div id={"theme-" + this.props.theme} className="panel-collapse collapse">
         <div className="panel-body">
-            {this.props.content}
+          <div className="panel-body-content">
+            {this.props.children}
+          </div>
+
         </div>
       </div>
     </div>

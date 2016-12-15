@@ -1,0 +1,25 @@
+@mixin accordion-panel(){
+  .accordion-panel-logo{
+    width: 3.3rem;
+    heigth: auto;
+    margin: 0 10px;
+  }
+
+  .title-link{
+
+    display: table;
+    &>*{
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .panel-body-content{
+    padding-left: 10px;
+  }
+
+}
+
+.accordion-panel{
+  @include accordion-panel();
+}

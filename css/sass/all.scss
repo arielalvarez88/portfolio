@@ -10,10 +10,10 @@
 /**
 * CONTENTS
 * 
-* SASS
-* 
-* 
 * SECTIONS
+* 
+* 
+* SASS
 * 
 * THEMES
 * 
@@ -24,11 +24,12 @@
 
 
 
-@import "c:/development/portfolio/css/sass/ie.scss";
-@import "c:/development/portfolio/css/sass/print.scss";
-@import "c:/development/portfolio/css/sass/screen.scss";
-@import "c:/development/portfolio/css/sass/var/sections/common.scss";
-@import "c:/development/portfolio/css/sass/src/widgets/themes/AccordionPanel.scss";
-@import "c:/development/portfolio/css/sass/src/sections/common.scss";
-@import "c:/development/portfolio/css/sass/src/sections/InfoSection.scss";
-@import "c:/development/portfolio/css/sass/src/sections/SkillsSection.scss";
+@import "C:/development/portfolio/css/sass/var/sections/common.scss";
+@import "C:/development/portfolio/css/sass/ie.scss";
+@import "C:/development/portfolio/css/sass/print.scss";
+@import "C:/development/portfolio/css/sass/screen.scss";
+@import "C:/development/portfolio/css/sass/src/widgets/themes/AccordionPanel.scss";
+@import "C:/development/portfolio/css/sass/src/sections/common.scss";
+@import "C:/development/portfolio/css/sass/src/sections/InfoSection.scss";
+@import "C:/development/portfolio/css/sass/src/sections/ProjectSection.scss";
+@import "C:/development/portfolio/css/sass/src/sections/SkillsSection.scss";

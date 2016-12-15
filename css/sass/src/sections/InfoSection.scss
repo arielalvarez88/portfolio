@@ -1,0 +1,12 @@
+@mixin sections-infosection(){
+
+  td.vertical-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+}
+
+.sections-infosection{
+  @include sections-infosection();
+}

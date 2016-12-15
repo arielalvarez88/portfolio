@@ -1,0 +1,10 @@
+@mixin sections-skillssection(){
+  .theme-image{
+    margin: 10px 0;
+  }
+
+}
+
+.sections-skillssection{
+  @include sections-skillssection();
+}
