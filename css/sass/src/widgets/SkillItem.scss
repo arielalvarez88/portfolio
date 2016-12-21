@@ -1,0 +1,21 @@
+@import 'var/mixins/font';
+
+@mixin widgets-skillitem(){
+
+  text-align: center;
+  img{
+
+    @include rem-fallback("width", 90);
+    @include rem-fallback("height", 90);
+
+  }
+
+  h3{
+    margin: 10px 0;
+
+  }
+}
+
+.widgets-skillitem{
+  @include widgets-skillitem();
+}

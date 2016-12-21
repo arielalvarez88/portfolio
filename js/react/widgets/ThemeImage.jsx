@@ -10,7 +10,7 @@ export class ThemeImage extends React.Component {
     render() {
 
         return (
-          <img className={"theme-image "+ this.props.className} src={"/img/widgets/themes/small/" + this.props.theme + ".svg" }/>
+          <img className={"theme-image "+ this.props.className} src={"/img/icons/" + this.props.theme + ".svg" }/>
         );
     }
 }
