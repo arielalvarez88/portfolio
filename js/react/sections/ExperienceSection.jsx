@@ -24,12 +24,16 @@ export class ExperienceSection extends React.Component {
                 <div className="col-md-3 bullet-box-container">
                   <BulletBox headerCls="red" title="Okkralabs, San Jose, California <br/> Software Engineer, November 2013 – Present">
                     <li>
-                      Developed web applications with latest web technologies (JS, IndexedDB, WebSockets, Rabbitmq)
-
+                      <div className="text">
+                        Developed web applications with latest web technologies (JS, IndexedDB, WebSockets, Rabbitmq)
+                      </div>
+                      <hr/>
                     </li>
 
                     <li>
+                      <div className="text">
                       Increased quality and client satisfaction by introducing Scrum methodology to team. Worked as Scrum Master and implemented metrics gathering and reporting that didn’t exist before.
+                    </div>
 
                     </li>
                   </BulletBox>
@@ -39,12 +43,19 @@ export class ExperienceSection extends React.Component {
                 <div className="col-md-3 bullet-box-container">
                   <BulletBox headerCls="red" title="Okkralabs, San Jose, California <br/> Software Engineer, November 2013 – Present">
                     <li>
-                      Developed web applications with latest web technologies (JS, IndexedDB, WebSockets, Rabbitmq)
+                      <div className="text">
+                        Developed web applications with latest web technologies (JS, IndexedDB, WebSockets, Rabbitmq)
+                      </div>
 
+                      <hr/>
                     </li>
 
                     <li>
-                      Increased quality and client satisfaction by introducing Scrum methodology to team. Worked as Scrum Master and implemented metrics gathering and reporting that didn’t exist before.
+
+                      <div className="text">
+                        Increased quality and client satisfaction by introducing Scrum methodology to team. Worked as Scrum Master and implemented metrics gathering and reporting that didn’t exist before.
+                      </div>
+
 
                     </li>
                   </BulletBox>
