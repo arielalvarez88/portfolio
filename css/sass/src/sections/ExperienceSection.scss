@@ -1,0 +1,9 @@
+@mixin sections-experiencesection(){
+  .bulletbox-container{
+    padding: 0 10px;
+  }
+}
+
+.sections-experiencesection{
+  @include sections-skillssection();
+}

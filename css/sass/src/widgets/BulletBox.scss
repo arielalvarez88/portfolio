@@ -1,0 +1,22 @@
+@import 'var/mixins/font';
+
+@mixin widgets-bulletbox(){
+
+  h3{
+    text-align: center;
+  }
+
+  h3.blue{
+    background-color: blue;
+  }
+
+  h3.red{
+    background-color: red;
+  }
+
+
+}
+
+.widgets-bulletbox{
+  @include widgets-bulletbox();
+}

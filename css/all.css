@@ -12,13 +12,24 @@
 * SECTIONS
 * 
 * 
+* VAR
+* 
+* MIXINS
+* 
 * SASS
 * 
 * THEMES
 * 
 * SECTIONS
+* 
+* WIDGETS
 *
 */
+@font-face {
+  font-family: "Montserrat";
+  src: url(/css/font/Montserrat-Regular.otf);
+}
+
 /* Welcome to Compass. Use this file to write IE specific override styles.
  * Import this file using the following HTML or equivalent:
  * <!--[if IE]>
@@ -101,6 +112,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 1rem;
 }
 
+/* line 11, sass/screen.scss */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 /* line 2, sass/src/widgets/themes/AccordionPanel.scss */
 .accordion-panel .accordion-panel-logo {
   width: 3.3rem;
@@ -124,46 +140,47 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* line 1, sass/src/sections/common.scss */
 html {
   font-size: 18px;
+  font-family: 'Montserrat', 'sans-serif';
 }
 
-/* line 5, sass/src/sections/common.scss */
+/* line 6, sass/src/sections/common.scss */
 * {
   font-size: 1rem;
 }
 
-/* line 9, sass/src/sections/common.scss */
+/* line 10, sass/src/sections/common.scss */
 body {
   padding-top: 75px;
 }
 
-/* line 13, sass/src/sections/common.scss */
+/* line 14, sass/src/sections/common.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 16, sass/src/sections/common.scss */
+/* line 17, sass/src/sections/common.scss */
 .section-header {
   padding-top: 40px;
   margin-top: -40px;
   margin-bottom: 40px;
 }
-/* line 21, sass/src/sections/common.scss */
+/* line 22, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
   font-size: 3.4rem;
 }
 
-/* line 29, sass/src/sections/common.scss */
+/* line 30, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
 
-/* line 34, sass/src/sections/common.scss */
+/* line 35, sass/src/sections/common.scss */
 .category {
   min-height: 600px;
 }
 
-/* line 38, sass/src/sections/common.scss */
+/* line 39, sass/src/sections/common.scss */
 *[id]:before {
   display: block;
   content: " ";
@@ -172,7 +189,7 @@ h3 {
   visibility: hidden;
 }
 
-/* line 46, sass/src/sections/common.scss */
+/* line 47, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
@@ -191,5 +208,47 @@ h3 {
 
 /* line 2, sass/src/sections/SkillsSection.scss */
 .sections-skillssection .theme-image {
+  margin: 10px 0;
+}
+/* line 6, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .widget-skillitem {
+  text-align: center;
+}
+/* line 11, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .skill-section > div {
+  margin: 30px 0px;
+  margin: 1.66667rem 0rem;
+}
+/* line 15, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .skill-section li {
+  margin: 8px 0;
+}
+
+/* line 5, sass/src/widgets/BulletBox.scss */
+.widgets-bulletbox h3 {
+  text-align: center;
+}
+/* line 9, sass/src/widgets/BulletBox.scss */
+.widgets-bulletbox h3.blue {
+  background-color: blue;
+}
+/* line 13, sass/src/widgets/BulletBox.scss */
+.widgets-bulletbox h3.red {
+  background-color: red;
+}
+
+/* line 19, sass/src/widgets/SkillItem.scss */
+.widgets-skillitem {
+  text-align: center;
+}
+/* line 6, sass/src/widgets/SkillItem.scss */
+.widgets-skillitem img {
+  width: 90px;
+  width: 5rem;
+  height: 90px;
+  height: 5rem;
+}
+/* line 13, sass/src/widgets/SkillItem.scss */
+.widgets-skillitem h3 {
   margin: 10px 0;
 }

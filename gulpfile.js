@@ -12,7 +12,7 @@ var creds = {
     "Website": 	"You are on it"
 }
 gulp.task('sass-all', function () {
-  gulp.src(['css/sass/var/**/*.scss', 'css/sass/*.scss', 'css/sass/src/**/*.scss'])
+  gulp.src(['css/sass/var/sections/*.scss','css/sass/var/**/*.scss', 'css/sass/*.scss', 'css/sass/src/**/*.scss'])
     .pipe(gsgc('css/sass/all.scss', creds, {forceComments: false }))
     .pipe(gulp.dest('css/sass'));
 });

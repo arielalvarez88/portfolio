@@ -3,6 +3,19 @@
     margin: 10px 0;
   }
 
+  .widget-skillitem{
+    text-align: center;
+  }
+
+
+  .skill-section > div{
+        @include rem-fallback(margin, 30, 0);
+  }
+
+  .skill-section li {
+    margin: 8px 0;
+  }
+
 }
 
 .sections-skillssection{
