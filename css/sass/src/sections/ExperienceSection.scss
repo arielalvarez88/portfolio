@@ -7,6 +7,25 @@
   h3{
     color: white;
   }
+
+  .widgets-bulletbox.separated{
+    padding: 0 20px;
+  }
+
+  .bullet-box-container:nth-of-type(3n) .widgets-bulletbox{
+    h3{
+      background-color: #39AFE1;
+    }
+
+  }
+
+  .bullet-box-container:nth-of-type(2n) .widgets-bulletbox{
+    h3{
+      background-color: #33D192;
+    }
+
+  }
+
 }
 
 .sections-experiencesection{

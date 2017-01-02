@@ -206,6 +206,18 @@ h3 {
 .sections-experiencesection h3 {
   color: white;
 }
+/* line 11, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .widgets-bulletbox.separated {
+  padding: 0 20px;
+}
+/* line 16, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .bullet-box-container:nth-of-type(3n) .widgets-bulletbox h3 {
+  background-color: #39AFE1;
+}
+/* line 23, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .bullet-box-container:nth-of-type(2n) .widgets-bulletbox h3 {
+  background-color: #33D192;
+}
 
 /* line 3, sass/src/sections/InfoSection.scss */
 .sections-infosection td.vertical-text {
@@ -239,25 +251,27 @@ h3 {
 /* line 3, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3 {
   text-align: center;
+  padding: 20px;
 }
-/* line 7, sass/src/widgets/BulletBox.scss */
+/* line 8, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox ul {
   color: #8e8e8e;
+  padding: 0 10px;
 }
-/* line 11, sass/src/widgets/BulletBox.scss */
+/* line 13, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox hr {
   margin: 0;
   padding: 0;
 }
-/* line 16, sass/src/widgets/BulletBox.scss */
+/* line 18, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox li .text {
   padding: 20px 0;
 }
-/* line 19, sass/src/widgets/BulletBox.scss */
+/* line 22, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3.blue {
   background-color: blue;
 }
-/* line 23, sass/src/widgets/BulletBox.scss */
+/* line 26, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3.red {
   background-color: red;
 }

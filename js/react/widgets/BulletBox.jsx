@@ -9,7 +9,11 @@ export class BulletBox extends React.Component{
 
     return (
       <div className={"row widgets-bulletbox " + this.props.className}>
-        <h3 className={this.props.headerCls}>{this.props.title}</h3>
+        <h3 className={this.props.headerCls}>
+          {this.props.title}
+          <p className="sub-text">{this.props.subText}</p>
+        </h3>
+
         <ul>
           {this.props.children}
         </ul>

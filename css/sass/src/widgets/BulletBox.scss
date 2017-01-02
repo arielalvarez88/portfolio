@@ -2,20 +2,23 @@
 @mixin widgets-bulletbox() {
     h3 {
         text-align: center;
+        padding: 20px;
     }
 
     ul {
         color: $widgets-bulletbox-font-color;
+        padding: 0 10px;
     }
 
-    hr{
-      margin: 0;
-      padding: 0;
+    hr {
+        margin: 0;
+        padding: 0;
     }
 
-    li .text{
-      padding: 20px 0;
+    li .text {
+        padding: 20px 0;
     }
+
     h3.blue {
         background-color: blue;
     }
