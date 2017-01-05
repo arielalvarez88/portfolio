@@ -12,7 +12,7 @@ export class SkillsSection extends React.Component {
         return (
             <div id={this.props.id} className="category sections-skillssection">
                 <div className="section-header">
-                    <h2 className="">Skills</h2>
+                    <h2 className="" id="section-skillssection-header">Skills</h2>
                 </div>
 
                 <div className="row skill-section">

@@ -152,47 +152,49 @@ html {
 }
 
 /* line 11, sass/src/sections/common.scss */
-body {
-  padding-top: 75px;
+#content-container {
+  position: relative;
 }
 
-/* line 15, sass/src/sections/common.scss */
+/* line 14, sass/src/sections/common.scss */
+body {
+  position: absolute;
+}
+
+/* line 17, sass/src/sections/common.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 18, sass/src/sections/common.scss */
+/* line 20, sass/src/sections/common.scss */
 .section-header {
-  padding-top: 40px;
-  margin-top: -40px;
+  margin-top: 15px;
   margin-bottom: 40px;
 }
-/* line 23, sass/src/sections/common.scss */
+/* line 24, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
   font-size: 3.4rem;
 }
 
-/* line 31, sass/src/sections/common.scss */
+/* line 32, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
 
-/* line 36, sass/src/sections/common.scss */
+/* line 37, sass/src/sections/common.scss */
 .category {
   min-height: 600px;
 }
 
-/* line 40, sass/src/sections/common.scss */
-*[id]:before {
+/**[id]:before {
   display: block;
   content: " ";
   margin-top: -75px;
   height: 75px;
   visibility: hidden;
-}
-
-/* line 48, sass/src/sections/common.scss */
+}*/
+/* line 49, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
@@ -219,7 +221,7 @@ h3 {
   background-color: #33D192;
 }
 
-/* line 3, sass/src/sections/InfoSection.scss */
+/* line 4, sass/src/sections/InfoSection.scss */
 .sections-infosection td.vertical-text {
   font-size: 1.3rem;
   font-weight: bold;
@@ -274,6 +276,24 @@ h3 {
 /* line 26, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3.red {
   background-color: red;
+}
+
+/* line 3, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem img {
+  width: 90px;
+  width: 5rem;
+  height: 90px;
+  height: 5rem;
+}
+/* line 8, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem .widget-row {
+  display: table-row;
+}
+/* line 11, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem .widget-row > div {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
 }
 
 /* line 19, sass/src/widgets/SkillItem.scss */

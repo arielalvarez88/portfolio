@@ -8,16 +8,32 @@ export class EducationItem extends React.Component{
   render(){
     return (
       <div className={"widgets-educationitem row " + this.props.className}>
-        <div className="col-md-4">
-          <img src={"/img/icons/" + this.props.iconName} />
-        </div>
-        <div className="col-md-8">
-          <h3 className="title">
-            {this.props.title}
-          </h3>
-          <div className="text">
-            {this.props.children}
+
+        <div className="widget-row row">
+
+          <div className="col-xs-2">
+            <img src={"/img/icons/" + this.props.iconName} />
           </div>
+          <div className="col-xs-10">
+            <h3 className="title">
+              {this.props.title}
+            </h3>
+
+          </div>
+
+        </div>
+
+        <div className="widget-row row">
+
+          <div className="col-xs-2">
+          </div>
+
+          <div className="col-xs-10">
+            <div className="text">
+              {this.props.children}
+            </div>
+          </div>
+
         </div>
 
       </div>
