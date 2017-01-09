@@ -4,14 +4,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {EducationItem} from '../widgets/EducationItem.js';
 import {Undergraduate} from './education/Undergraduate.js';
-import {Certificates} from './education/Certificates.js';
-import {MachineLearning} from './education/MachineLearning.js';
-import {DesktopAndHardware} from './education/DesktopAndHardware.js';
-import {WebDevelopment} from './education/WebDevelopment.js';
 
 
 import {Mobile} from './education/Mobile.js';
-
 
 export class EducationSection extends React.Component {
 
@@ -26,31 +21,9 @@ export class EducationSection extends React.Component {
 
                 <div className="row">
                     <div className="col-md-6">
-                      <Undergraduate/>
-                    </div>
-                    <div className="col-md-6">
-                        <MachineLearning/>
+                        <Undergraduate/>
                     </div>
 
-                </div>
-
-                <div className="row">
-                    <div className="col-md-6">
-
-                        <WebDevelopment/>
-                    </div>
-                    <div className="col-md-6">
-                      <Mobile/>
-                    </div>
-
-                </div>
-
-                <div className="row">
-
-
-                    <div className="col-md-6">
-                        <DesktopAndHardware/>
-                    </div>
                 </div>
 
             </div>
