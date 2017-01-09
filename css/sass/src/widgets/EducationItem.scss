@@ -1,0 +1,24 @@
+@import 'var/mixins/font';
+@mixin widgets-educationitem() {
+    img {
+        @include rem-fallback("width", 90);
+        @include rem-fallback("height", 90);
+    }
+
+    .widget-row  {
+        display: table-row;
+
+      & > div{
+        display: table-cell;
+        float: none;
+        vertical-align: middle;
+      }
+
+    }
+
+
+}
+
+.widgets-educationitem {
+    @include widgets-educationitem();
+}

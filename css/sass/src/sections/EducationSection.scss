@@ -1,0 +1,10 @@
+@mixin sections-educationsection(){
+
+  .row {
+      margin-bottom: 15px;
+  }
+}
+
+.sections-educationsection{
+  @include sections-educationsection;
+}

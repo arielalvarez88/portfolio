@@ -156,33 +156,28 @@ html {
   position: relative;
 }
 
-/* line 14, sass/src/sections/common.scss */
-body {
-  position: absolute;
-}
-
-/* line 17, sass/src/sections/common.scss */
+/* line 15, sass/src/sections/common.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 20, sass/src/sections/common.scss */
+/* line 18, sass/src/sections/common.scss */
 .section-header {
   margin-top: 15px;
   margin-bottom: 40px;
 }
-/* line 24, sass/src/sections/common.scss */
+/* line 22, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
   font-size: 3.4rem;
 }
 
-/* line 32, sass/src/sections/common.scss */
+/* line 30, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
 
-/* line 37, sass/src/sections/common.scss */
+/* line 35, sass/src/sections/common.scss */
 .category {
   min-height: 600px;
 }
@@ -194,10 +189,15 @@ h3 {
   height: 75px;
   visibility: hidden;
 }*/
-/* line 49, sass/src/sections/common.scss */
+/* line 47, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
+}
+
+/* line 3, sass/src/sections/EducationSection.scss */
+.sections-educationsection .row {
+  margin-bottom: 15px;
 }
 
 /* line 2, sass/src/sections/ExperienceSection.scss */
