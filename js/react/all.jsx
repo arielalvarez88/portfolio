@@ -9,6 +9,7 @@ import {ExperienceSection} from './sections/ExperienceSection.js';
 import {EducationSection} from './sections/EducationSection.js';
 import {Certifications} from './sections/Certifications.js';
 import {Courses} from './sections/Courses.js';
+import {Congresses} from './sections/Congresses.js';
 
 var pageTpl = (
 <div>
@@ -19,6 +20,7 @@ var pageTpl = (
     <EducationSection id="section-educationsection"/>
     <Certifications id="section-certificationssection"/>
     <Courses id="section-coursessection"/>
+    <Congresses id="section-congressessection"/>
 </div>
 
 );
