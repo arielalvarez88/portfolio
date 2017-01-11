@@ -15,8 +15,7 @@ export class DesktopAndHardware extends React.Component {
                 <br/>
                 Institution: <span className="bold">University of Michigan (Via Coursera)</span>
                 <br/>
-                Link:
-                <a href="https://www.coursera.org/learn/python">here.</a>
+                Link: <a href="https://www.coursera.org/learn/python" target="_blank">here.</a>
             </li>
             <li>
               <hr/>
@@ -27,8 +26,7 @@ export class DesktopAndHardware extends React.Component {
                 <br/>
                 Place: Santiago, Dominican Republic
                 <br/>
-                Link:
-                <a href="http://softmatica.edu.do/softmatica/">http://softmatica.edu.do/softmatica/</a>
+                Link: <a href="http://softmatica.edu.do/softmatica/" target="_blank">http://softmatica.edu.do/softmatica/</a>
             </li>
 
             <li>
@@ -39,8 +37,7 @@ export class DesktopAndHardware extends React.Component {
                 <br/>
                 Place: Santiago, Dominican Republic
                 <br/>
-                Link:
-                <a href="href">
+                Link:                <a href="http://www.codigolibre.org/" className="test" target="_blank">
                     http://www.codigolibre.org/
                 </a>
             </li>

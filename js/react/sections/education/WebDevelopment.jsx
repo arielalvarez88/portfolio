@@ -16,7 +16,7 @@ export class WebDevelopment extends React.Component {
 
                 <br/>
                 Link:
-                <a href="https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0">here.</a>
+                <a href="https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0" target="_blank">here.</a>
             </li>
             <li>
               <hr/>
@@ -25,7 +25,7 @@ export class WebDevelopment extends React.Component {
                 Institution: <span className="bold">Pluralsight (by Scott Allen)</span>
                 <br/>
                 Link:
-                <a href="http://www.pluralsight.com/courses/angularjs-get-started">here.</a>
+                <a href="http://www.pluralsight.com/courses/angularjs-get-started" target="_blank">here.</a>
             </li>
 
         </ul>

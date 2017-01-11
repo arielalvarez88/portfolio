@@ -26,24 +26,18 @@ export class Courses extends React.Component {
                     <div className="col-md-6 animation-element appear-from-left">
 
                         <WebDevelopment/>
+                        <Mobile/>
                     </div>
 
                     <div className="col-md-6 animation-element appear-from-right">
                         <MachineLearning/>
-                    </div>
-
-
-                </div>
-
-                <div className="row">
-                  <div className="col-md-6 animation-element appear-from-left">
-                    <Mobile/>
-                  </div>
-
-                    <div className="col-md-6 animation-element appear-from-right">
                         <DesktopAndHardware/>
                     </div>
+
+
                 </div>
+
+                
 
 
             </div>

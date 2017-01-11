@@ -13,7 +13,7 @@ export class Mobile extends React.Component {
                 <br/>
                   Institution: Google (Via Udacity )
                 <br/>
-                  Link: <a href="https://classroom.udacity.com/courses/ud853">https://classroom.udacity.com/courses/ud853</a>
+                  Link: <a href="https://classroom.udacity.com/courses/ud853" target="_blank">https://classroom.udacity.com/courses/ud853</a>
 
             </li>
 

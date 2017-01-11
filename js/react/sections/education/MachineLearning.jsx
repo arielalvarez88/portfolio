@@ -14,7 +14,7 @@ export class MachineLearning extends React.Component {
                 Institution: <span className="bold">Udacity</span>
                 <br/>
                 Link:
-                <a href="https://classroom.udacity.com/courses/ud953">here</a>
+                <a href="https://classroom.udacity.com/courses/ud953" target="_blank">here</a>
 
             </li>
 
@@ -25,7 +25,7 @@ export class MachineLearning extends React.Component {
                 Institution: <span className="bold">Stanford University (Via Coursera)</span>
                 <br/>
                 Link:
-                <a href="https://www.coursera.org/learn/machine-learning">here</a>
+                <a href="https://www.coursera.org/learn/machine-learning" target="_blank">here</a>
 
             </li>
 

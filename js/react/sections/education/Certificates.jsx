@@ -15,10 +15,10 @@ export class Certificates extends React.Component {
                 <span className="bold">Udacity</span>
                 <br/>
                 Nanodegree Link:
-                <a href="https://classroom.udacity.com/nanodegrees/nd009/syllabus">here.</a>
+                <a href="https://classroom.udacity.com/nanodegrees/nd009/syllabus" target="_blank">here.</a>
                 <br/>
                 Certificate link:
-                <a href="/files/nd-cert.pdf">here.</a>
+                <a href="/files/nd-cert.pdf" target="_blank">here.</a>
             </li>
 
             <li>
@@ -27,7 +27,7 @@ export class Certificates extends React.Component {
                 <br/>
                 Issued by: <span className="bold">Oracle</span>
                 <br/>
-                Certificate/Badge: <a href="https://www.youracclaim.com/badges/8b777dc4-091c-431e-80f0-f1823d0efea9">here.</a>
+                Certificate/Badge: <a href="https://www.youracclaim.com/badges/8b777dc4-091c-431e-80f0-f1823d0efea9" target="_blank">here.</a>
                 <br/>
                 Details: Grade: 96%. Oracle Testing ID: OC1249983.
             </li>
