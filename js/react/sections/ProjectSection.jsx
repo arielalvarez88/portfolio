@@ -10,12 +10,12 @@ export class ProjectSection extends React.Component {
     render() {
 
         return (
-            <div id={this.props.id} className="category row sections-projectsection">
+            <div id={this.props.id} className="category row sections-projectsection appear">
                 <div className="section-header">
                     <h2>Projects</h2>
                 </div>
 
-                <Accordion id="project-themes-small">
+                <Accordion id="project-themes-small" className="animation-element appear">
 
                     <AccordionPanel theme="machine-learning" title="Machine Learning">
                         <div className="project">

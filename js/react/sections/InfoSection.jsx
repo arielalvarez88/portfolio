@@ -8,13 +8,13 @@ export class InfoSection extends React.Component {
     render() {
 
         return (
-            <div className="category sections-infosection row" id={this.props.id}>
+            <div className="category sections-infosection row " id={this.props.id}>
 
                 <div className="section-header">
                     <h2 className="" id="section-infosection-header">Info</h2>
                 </div>
 
-                <div className="col-xs-8 col-sm-offset-2">
+                <div className="col-xs-8 col-sm-offset-2 appear animation-element">
                     <table className="info-table">
                         <tr>
                             <td className="vertical-text">Passion for software.</td>

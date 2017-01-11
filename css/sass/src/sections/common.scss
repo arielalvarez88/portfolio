@@ -8,6 +8,10 @@ html{
   font-size: 1rem;
 }
 
+.initially-transparent{
+  opacity: 0;
+}
+
 #content-container{
   position : relative;
 }

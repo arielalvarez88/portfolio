@@ -9,7 +9,7 @@ export class Accordion extends React.Component {
 
         return (
 
-                <div className="panel-group" id={this.props.id}>
+                <div className={"panel-group " + this.props.className} id={this.props.id}>
                     {this.props.children}
                 </div>
 

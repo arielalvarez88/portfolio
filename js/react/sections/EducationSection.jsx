@@ -20,7 +20,7 @@ export class EducationSection extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 animation-element appear-from-left">
                         <Undergraduate/>
                     </div>
 

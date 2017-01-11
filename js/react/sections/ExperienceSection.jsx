@@ -17,7 +17,7 @@ export class ExperienceSection extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-4 bullet-box-container">
+                    <div className="col-md-4 bullet-box-container animation-element appear-from-left">
                         <BulletBox className="separated" headerCls="red" title="Okkralabs, San Jose, California" subText="Software Engineer, November 2013 – Present">
                             <li>
                                 <div className="text">
@@ -36,7 +36,7 @@ export class ExperienceSection extends React.Component {
 
                     </div>
 
-                    <div className="col-md-4 bullet-box-container">
+                    <div className="col-md-4 bullet-box-container  animation-element appear">
                         <BulletBox className="separated" headerCls="red" title="Claro, Santo Domingo, Dominican Republic" subText="System Engineer Level 3, July 2012 – November 2013">
                             <li>
                                 <div className="text">
@@ -78,7 +78,7 @@ export class ExperienceSection extends React.Component {
 
                     </div>
 
-                    <div className="col-md-4 bullet-box-container">
+                    <div className="col-md-4 bullet-box-container  animation-element appear-from-right">
                         <BulletBox className="separated" headerCls="red" title="5050MKT, Santiago, Dominican Republic" subText="Full Stack Developer, April 2011 – March2012">
                             <li>
                               <div className="text">
@@ -91,7 +91,7 @@ export class ExperienceSection extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-4 bullet-box-container">
+                    <div className="col-md-4 bullet-box-container animation-element appear-from-left">
                         <BulletBox className="separated" headerCls="red" title="Intellisys, Santiago, Dominican Republic" subText="Scrum Team Member, November 2010– April 2011">
                             <li>
                                 <div className="text">

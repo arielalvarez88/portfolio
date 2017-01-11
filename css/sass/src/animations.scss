@@ -1,19 +1,64 @@
-@@keyframes appear-from-left {
+@keyframes appear-from-left {
 
   0% {
     opacity: 0;
-    left: -20px;
+    transform: translate3d(-40px, 0px, 0px);
+    //left: -40px;
   }
 
   100%{
     opacity: 100%;
-    left: 0;
+    transform: translate3d(0px, 0px, 0px);
+    //left: 0;
   }
 
 }
 
-.appear-from-left{
-  animation-name: example;
+@keyframes appear-from-right {
+
+  0% {
+    opacity: 0;
+    transform: translate3d(40px, 0px, 0px);
+    //right: -40px;
+  }
+
+  100%{
+    opacity: 100%;
+    transform: translate3d(0px, 0px, 0px);
+    //right: 0;
+  }
+
+}
+
+@keyframes appear{
+
+  0% {
+    opacity: 0;
+
+  }
+
+  100%{
+    opacity: 100%;
+  }
+}
+
+
+
+.in-view.appear{
+  animation-name: appear;
   animation-duration: 5s;
+}
+
+.in-view.appear-from-left{
+  position: relative;
+  animation-name: appear-from-left;
+  animation-duration: 2s;
+
+}
+
+.in-view.appear-from-right{
+  position: relative;
+  animation-name: appear-from-right;
+  animation-duration: 2s;
 
 }

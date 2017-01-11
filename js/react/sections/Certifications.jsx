@@ -17,7 +17,7 @@ export class Certifications extends React.Component {
                     <h2 className="">Certifications/Nanodegrees</h2>
                 </div>
 
-                <div className="row">
+                <div className="row animation-element appear-from-left">
                     <EducationItem title="All" iconName="diploma.svg">
                         <ul>
                             <li>

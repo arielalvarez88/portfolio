@@ -23,12 +23,12 @@ export class Courses extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 animation-element appear-from-left">
 
                         <WebDevelopment/>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 animation-element appear-from-right">
                         <MachineLearning/>
                     </div>
 
@@ -36,11 +36,11 @@ export class Courses extends React.Component {
                 </div>
 
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-6 animation-element appear-from-left">
                     <Mobile/>
                   </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 animation-element appear-from-right">
                         <DesktopAndHardware/>
                     </div>
                 </div>

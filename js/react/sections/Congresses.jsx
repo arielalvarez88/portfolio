@@ -17,7 +17,7 @@ export class Congresses extends React.Component {
                     <h2 className="">Congresses and Workshops</h2>
                 </div>
 
-                <div className="row">
+                <div className="row animation-element appear">
                     <div className="col-xs-12">
                         <EducationItem title="All" iconName="lecture.svg">
 

@@ -12,7 +12,7 @@ import {Courses} from './sections/Courses.js';
 import {Congresses} from './sections/Congresses.js';
 
 var pageTpl = (
-<div>
+<div className="appear">
     <InfoSection id="section-infosection"/>
     <SkillsSection id="section-skillssection"/>
     <ProjectSection id="section-projectssection"/>
