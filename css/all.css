@@ -24,9 +24,9 @@
 * 
 * SRC
 * 
-* WIDGETS
-* 
 * SECTIONS
+* 
+* WIDGETS
 *
 */
 @font-face {
@@ -201,6 +201,228 @@ h1, h2, h3 {
   animation-duration: 2s;
 }
 
+/* line 12, sass/src/sections/CertificationsSection.scss */
+.sections-certificationssection {
+  background: #39afe1;
+  color: white;
+}
+/* line 7, sass/src/sections/CertificationsSection.scss */
+.sections-certificationssection .row {
+  margin-bottom: 15px;
+}
+
+/* line 1, sass/src/sections/common.scss */
+html {
+  font-size: 18px;
+  font-family: 'Montserrat', 'sans-serif';
+  font-color: #404040;
+}
+
+/* line 9, sass/src/sections/common.scss */
+#background-imgs, .black-screen {
+  position: fixed;
+  left: 0px;
+  width: auto;
+  height: auto;
+  z-index: -2;
+  width: 100%;
+  top: -167px;
+}
+
+/* line 18, sass/src/sections/common.scss */
+.black-screen {
+  z-index: -1;
+  background: black;
+  width: 100%;
+  height: 3000px;
+  opacity: 0.8;
+}
+
+/* line 28, sass/src/sections/common.scss */
+* {
+  font-size: 1rem;
+}
+
+/* line 32, sass/src/sections/common.scss */
+.initially-transparent {
+  opacity: 0;
+}
+
+/* line 36, sass/src/sections/common.scss */
+#content-container {
+  position: relative;
+}
+
+/* line 40, sass/src/sections/common.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 43, sass/src/sections/common.scss */
+.section-header {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+/* line 47, sass/src/sections/common.scss */
+.section-header h2 {
+  text-align: center;
+  font-size: 3.4rem;
+}
+
+/* line 55, sass/src/sections/common.scss */
+h3 {
+  font-size: 1.5rem;
+}
+
+/**[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}*/
+/* line 69, sass/src/sections/common.scss */
+.vertical-text {
+  transform: rotate(-90deg);
+  text-align: center;
+}
+
+/* line 7, sass/src/sections/CongressesSection.scss */
+.sections-congressessection {
+  background: #272727;
+  color: white;
+}
+
+/* line 19, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem img {
+  width: 90px;
+  width: 5rem;
+  height: 90px;
+  height: 5rem;
+}
+/* line 24, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem .widget-row {
+  display: table-row;
+}
+/* line 27, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem .widget-row > div {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+
+/* line 11, sass/src/sections/CoursesSection.scss */
+.sections-coursessection {
+  color: white;
+}
+/* line 13, sass/src/widgets/EducationItem.scss */
+.sections-coursessection .widgets-educationitem {
+  color: white;
+}
+
+/* line 19, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem img {
+  width: 90px;
+  width: 5rem;
+  height: 90px;
+  height: 5rem;
+}
+/* line 24, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem .widget-row {
+  display: table-row;
+}
+/* line 27, sass/src/widgets/EducationItem.scss */
+.widgets-educationitem .widget-row > div {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+
+/* line 11, sass/src/sections/EducationSection.scss */
+.sections-educationsection {
+  background: white;
+}
+/* line 4, sass/src/widgets/EducationItem.scss */
+.sections-educationsection .widgets-educationitem {
+  color: #8e8e8e;
+}
+/* line 6, sass/src/widgets/EducationItem.scss */
+.sections-educationsection .widgets-educationitem .title {
+  color: #404040;
+}
+/* line 6, sass/src/sections/EducationSection.scss */
+.sections-educationsection .row {
+  margin-bottom: 15px;
+}
+
+/* line 2, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .section-header {
+  color: white;
+}
+/* line 6, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .bullet-box-container {
+  margin-bottom: 20px;
+}
+/* line 11, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection h3 {
+  color: white;
+}
+/* line 15, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .widgets-bulletbox.separated {
+  padding: 0 20px;
+}
+/* line 20, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .bullet-box-container:nth-of-type(3n) .widgets-bulletbox h3 {
+  background-color: #39AFE1;
+}
+/* line 27, sass/src/sections/ExperienceSection.scss */
+.sections-experiencesection .bullet-box-container:nth-of-type(2n) .widgets-bulletbox h3 {
+  background-color: #33D192;
+}
+
+/* line 12, sass/src/sections/InfoSection.scss */
+.sections-infosection {
+  color: white;
+  min-height: 600px;
+}
+/* line 5, sass/src/sections/InfoSection.scss */
+.sections-infosection td.vertical-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* line 10, sass/src/sections/ProjectSection.scss */
+.sections-projectsection {
+  background: white;
+}
+/* line 4, sass/src/sections/ProjectSection.scss */
+.sections-projectsection .project {
+  margin: 20px 0;
+}
+
+/* line 25, sass/src/sections/SkillsSection.scss */
+.sections-skillssection {
+  background: #272727;
+  color: white;
+}
+/* line 6, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .theme-image {
+  margin: 10px 0;
+}
+/* line 10, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .widget-skillitem {
+  text-align: center;
+}
+/* line 15, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .skill-section > div {
+  margin: 30px 0px;
+  margin: 1.66667rem 0rem;
+}
+/* line 19, sass/src/sections/SkillsSection.scss */
+.sections-skillssection .skill-section li {
+  margin: 8px 0;
+}
+
 /* line 3, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3 {
   text-align: center;
@@ -229,18 +451,18 @@ h1, h2, h3 {
   background-color: red;
 }
 
-/* line 3, sass/src/widgets/EducationItem.scss */
+/* line 19, sass/src/widgets/EducationItem.scss */
 .widgets-educationitem img {
   width: 90px;
   width: 5rem;
   height: 90px;
   height: 5rem;
 }
-/* line 8, sass/src/widgets/EducationItem.scss */
+/* line 24, sass/src/widgets/EducationItem.scss */
 .widgets-educationitem .widget-row {
   display: table-row;
 }
-/* line 11, sass/src/widgets/EducationItem.scss */
+/* line 27, sass/src/widgets/EducationItem.scss */
 .widgets-educationitem .widget-row > div {
   display: table-cell;
   float: none;
@@ -261,120 +483,4 @@ h1, h2, h3 {
 /* line 13, sass/src/widgets/SkillItem.scss */
 .widgets-skillitem h3 {
   margin: 10px 0;
-}
-
-/* line 1, sass/src/sections/common.scss */
-html {
-  font-size: 18px;
-  font-family: 'Montserrat', 'sans-serif';
-  font-color: #404040;
-}
-
-/* line 7, sass/src/sections/common.scss */
-* {
-  font-size: 1rem;
-}
-
-/* line 11, sass/src/sections/common.scss */
-.initially-transparent {
-  opacity: 0;
-}
-
-/* line 15, sass/src/sections/common.scss */
-#content-container {
-  position: relative;
-}
-
-/* line 19, sass/src/sections/common.scss */
-.bold {
-  font-weight: bold;
-}
-
-/* line 22, sass/src/sections/common.scss */
-.section-header {
-  margin-top: 15px;
-  margin-bottom: 40px;
-}
-/* line 26, sass/src/sections/common.scss */
-.section-header h2 {
-  text-align: center;
-  font-size: 3.4rem;
-}
-
-/* line 34, sass/src/sections/common.scss */
-h3 {
-  font-size: 1.5rem;
-}
-
-/* line 39, sass/src/sections/common.scss */
-.category {
-  min-height: 600px;
-}
-
-/**[id]:before {
-  display: block;
-  content: " ";
-  margin-top: -75px;
-  height: 75px;
-  visibility: hidden;
-}*/
-/* line 51, sass/src/sections/common.scss */
-.vertical-text {
-  transform: rotate(-90deg);
-  text-align: center;
-}
-
-/* line 3, sass/src/sections/EducationSection.scss */
-.sections-educationsection .row {
-  margin-bottom: 15px;
-}
-
-/* line 2, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection .bullet-box-container {
-  margin-bottom: 20px;
-}
-/* line 7, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection h3 {
-  color: white;
-}
-/* line 11, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection .widgets-bulletbox.separated {
-  padding: 0 20px;
-}
-/* line 16, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection .bullet-box-container:nth-of-type(3n) .widgets-bulletbox h3 {
-  background-color: #39AFE1;
-}
-/* line 23, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection .bullet-box-container:nth-of-type(2n) .widgets-bulletbox h3 {
-  background-color: #33D192;
-}
-
-/* line 4, sass/src/sections/InfoSection.scss */
-.sections-infosection td.vertical-text {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-/* line 2, sass/src/sections/ProjectSection.scss */
-.sections-projectsection .project {
-  margin: 20px 0;
-}
-
-/* line 2, sass/src/sections/SkillsSection.scss */
-.sections-skillssection .theme-image {
-  margin: 10px 0;
-}
-/* line 6, sass/src/sections/SkillsSection.scss */
-.sections-skillssection .widget-skillitem {
-  text-align: center;
-}
-/* line 11, sass/src/sections/SkillsSection.scss */
-.sections-skillssection .skill-section > div {
-  margin: 30px 0px;
-  margin: 1.66667rem 0rem;
-}
-/* line 15, sass/src/sections/SkillsSection.scss */
-.sections-skillssection .skill-section li {
-  margin: 8px 0;
 }

@@ -1,4 +1,8 @@
 @mixin sections-skillssection(){
+
+  background: $section-color-dark;
+  color: white;
+
   .theme-image{
     margin: 10px 0;
   }

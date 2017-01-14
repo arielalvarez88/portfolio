@@ -1,0 +1,9 @@
+@mixin sections-congressessection(){
+  
+  background: $section-color-dark;
+  color: white;
+}
+
+.sections-congressessection{
+  @include sections-congressessection();
+}

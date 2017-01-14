@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 import {EducationItem} from '../widgets/EducationItem.js';
 import {Undergraduate} from './education/Undergraduate.js';
 
-
 import {Mobile} from './education/Mobile.js';
 
 export class EducationSection extends React.Component {
@@ -13,20 +12,21 @@ export class EducationSection extends React.Component {
     render() {
 
         return (
-            <div id={this.props.id} className={"category sections-educationsection row " + this.props.className}>
+            <section id={this.props.id} className={"category sections-educationsection " + this.props.className}>
+                <div className="container">
+                    <div className="section-header">
+                        <h2 className="">Education</h2>
+                    </div>
 
-                <div className="section-header">
-                    <h2 className="">Education</h2>
-                </div>
+                    <div className="row">
+                        <div className="col-md-6 animation-element appear-from-left">
+                            <Undergraduate/>
+                        </div>
 
-                <div className="row">
-                    <div className="col-md-6 animation-element appear-from-left">
-                        <Undergraduate/>
                     </div>
 
                 </div>
-
-            </div>
+            </section>
         );
     }
 }

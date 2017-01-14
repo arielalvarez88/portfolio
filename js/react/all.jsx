@@ -8,19 +8,22 @@ import {InfoSection} from './sections/InfoSection.js';
 import {ExperienceSection} from './sections/ExperienceSection.js';
 import {EducationSection} from './sections/EducationSection.js';
 import {Certifications} from './sections/Certifications.js';
-import {Courses} from './sections/Courses.js';
-import {Congresses} from './sections/Congresses.js';
+import {CoursesSection} from './sections/CoursesSection.js';
+import {CongressesSection} from './sections/CongressesSection.js';
 
 var pageTpl = (
-<div className="appear">
-    <InfoSection id="section-infosection"/>
+<div>
+
+    <div className="black-screen"></div>
+    <InfoSection id="section-infosection" className="first-section"/>
     <SkillsSection id="section-skillssection"/>
     <ProjectSection id="section-projectssection"/>
     <ExperienceSection id="section-experiencesection"/>
     <EducationSection id="section-educationsection"/>
     <Certifications id="section-certificationssection"/>
-    <Courses id="section-coursessection"/>
-    <Congresses id="section-congressessection"/>
+    <CongressesSection id="section-congressessection" />
+    <CoursesSection id="section-coursessection" className="last-section"/>
+
 </div>
 
 );

@@ -1,0 +1,14 @@
+@import '../../var/sections/common';
+@mixin sections-certificationssection(){
+
+  background: $section-color-blue;
+  color: white;
+
+  .row {
+      margin-bottom: 15px;
+  }
+}
+
+.sections-certificationssection{
+  @include sections-certificationssection;
+}

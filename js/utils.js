@@ -1,8 +1,23 @@
 var offsetBody = function(){
 
-    var navBar = $("#principal-navbar");
+    var navBar = $("#principal-navbar"),
+    navBarHeight = navBar.outerHeight();
 
-    $(".category").css("padding-top",navBar.outerHeight());
+    $(".category").css("padding-top",navBarHeight);
+    $(".category").css("padding-bottom",navBarHeight);
+    centralizeSectionsContent = function(sectionSelector){
+      var sectionHeight = $(sectionSelector).outerHeight(),
+          sectionContentHeight = $(sectionSelector + "> .container").outerHeight(),
+          sectionPaddingTop= (sectionHeight - navBarHeight)/2 - (sectionContentHeight/2);
+
+          if(sectionPaddingTop > 0){
+            $(sectionSelector + "> .container").css("padding-top",sectionPaddingTop);
+          }
+
+    };
+
+    centralizeSectionsContent(".first-section");
+    
 };
 
 
@@ -31,7 +46,7 @@ function check_if_in_view() {
       $element.addClass('in-view');
 
 
-    } 
+    }
     $element.removeClass('initially-transparent');
   });
 }
@@ -39,3 +54,22 @@ function check_if_in_view() {
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
 $(document).ready(check_if_in_view);
+$(document).ready(function(){
+
+  $(function() {
+      $('body').vegas({
+          timer: false,
+          slides: [
+              { src: '/img/backgrounds/bg1.jpg' },
+              { src: '/img/backgrounds/bg2.jpg' },
+              { src: '/img/backgrounds/bg3.jpg' },
+              { src: '/img/backgrounds/bg4.jpg' },
+              { src: '/img/backgrounds/bg5.jpg' },
+              { src: '/img/backgrounds/bg6.jpg' }
+
+
+          ]      });
+  });
+
+
+});

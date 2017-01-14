@@ -1,0 +1,13 @@
+@import  '../widgets/EducationItem';
+
+@mixin sections-coursessection(){
+
+  
+  color: white;
+
+  @include education-item-dark-background();
+}
+
+.sections-coursessection{
+  @include sections-coursessection();
+}

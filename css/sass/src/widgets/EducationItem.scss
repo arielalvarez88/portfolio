@@ -1,4 +1,20 @@
 @import 'var/mixins/font';
+@import 'var/sections/common';
+@mixin education-item-white-background(){
+  .widgets-educationitem{
+    color: $font-color-gray;
+    .title{
+      color: $font-color;
+    }
+  }
+}
+
+@mixin education-item-dark-background(){
+  .widgets-educationitem{
+    color: white;    
+  }
+}
+
 @mixin widgets-educationitem() {
     img {
         @include rem-fallback("width", 90);
