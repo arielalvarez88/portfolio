@@ -15,7 +15,10 @@ export class Certifications extends React.Component {
 
                 <div className="container">
                     <div className="section-header">
-                        <h2 className="">Certifications/Nanodegrees</h2>
+                        <h2 className="">
+                          Certifications & Nanodegrees
+
+                        </h2>
                     </div>
 
                     <div className="row animation-element appear-from-left">
