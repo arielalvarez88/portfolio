@@ -218,7 +218,21 @@ html {
   font-color: #404040;
 }
 
-/* line 9, sass/src/sections/common.scss */
+/* Extra Small */
+@media (max-width: 767px) {
+  /* line 9, sass/src/sections/common.scss */
+  html {
+    font-size: 24px;
+  }
+}
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 18, sass/src/sections/common.scss */
+  html {
+    font-size: 24px;
+  }
+}
+/* line 27, sass/src/sections/common.scss */
 #background-imgs, .black-screen {
   position: fixed;
   left: 0px;
@@ -229,7 +243,7 @@ html {
   top: -167px;
 }
 
-/* line 18, sass/src/sections/common.scss */
+/* line 36, sass/src/sections/common.scss */
 .black-screen {
   z-index: -1;
   background: black;
@@ -238,38 +252,38 @@ html {
   opacity: 0.8;
 }
 
-/* line 28, sass/src/sections/common.scss */
+/* line 46, sass/src/sections/common.scss */
 * {
   font-size: 1rem;
 }
 
-/* line 32, sass/src/sections/common.scss */
+/* line 50, sass/src/sections/common.scss */
 .initially-transparent {
   opacity: 0;
 }
 
-/* line 36, sass/src/sections/common.scss */
+/* line 54, sass/src/sections/common.scss */
 #content-container {
   position: relative;
 }
 
-/* line 40, sass/src/sections/common.scss */
+/* line 58, sass/src/sections/common.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 43, sass/src/sections/common.scss */
+/* line 61, sass/src/sections/common.scss */
 .section-header {
   margin-top: 15px;
   margin-bottom: 40px;
 }
-/* line 47, sass/src/sections/common.scss */
+/* line 65, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
   font-size: 3.4rem;
 }
 
-/* line 55, sass/src/sections/common.scss */
+/* line 73, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
@@ -281,7 +295,7 @@ h3 {
   height: 75px;
   visibility: hidden;
 }*/
-/* line 69, sass/src/sections/common.scss */
+/* line 87, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
@@ -423,30 +437,30 @@ h3 {
   margin: 8px 0;
 }
 
-/* line 3, sass/src/widgets/BulletBox.scss */
+/* line 4, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3 {
   text-align: center;
   padding: 20px;
 }
-/* line 8, sass/src/widgets/BulletBox.scss */
+/* line 9, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox ul {
   color: #8e8e8e;
   padding: 0 10px;
 }
-/* line 13, sass/src/widgets/BulletBox.scss */
+/* line 14, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox hr {
   margin: 0;
   padding: 0;
 }
-/* line 18, sass/src/widgets/BulletBox.scss */
+/* line 19, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox li .text {
   padding: 20px 0;
 }
-/* line 22, sass/src/widgets/BulletBox.scss */
+/* line 23, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3.blue {
   background-color: blue;
 }
-/* line 26, sass/src/widgets/BulletBox.scss */
+/* line 27, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox h3.red {
   background-color: red;
 }

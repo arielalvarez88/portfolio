@@ -1,4 +1,5 @@
 @import 'var/mixins/font';
+@import '../../var/widgets/BulletBox';
 @mixin widgets-bulletbox() {
     h3 {
         text-align: center;

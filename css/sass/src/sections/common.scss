@@ -4,6 +4,24 @@ html{
   font-color: $font-color;
 }
 
+/* Extra Small */
+@media(max-width:767px){
+  html {
+    font-size: $font-size-sm;
+
+  }
+
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+  html {
+    font-size: $font-size-sm;
+
+  }
+}
+
+
 
 
 #background-imgs {
