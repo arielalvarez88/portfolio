@@ -222,14 +222,14 @@ html {
 @media (max-width: 767px) {
   /* line 9, sass/src/sections/common.scss */
   html {
-    font-size: 24px;
+    font-size: 40px;
   }
 }
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 18, sass/src/sections/common.scss */
   html {
-    font-size: 24px;
+    font-size: 40px;
   }
 }
 /* line 27, sass/src/sections/common.scss */
