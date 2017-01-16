@@ -17,7 +17,7 @@ var offsetBody = function(){
     };
 
     centralizeSectionsContent(".first-section");
-    
+
 };
 
 
