@@ -217,22 +217,26 @@ html {
   font-family: 'Montserrat', 'sans-serif';
   font-color: #404040;
 }
+/* line 6, sass/src/sections/common.scss */
+html * {
+  word-break: break-word;
+}
 
 /* Extra Small */
 @media (max-width: 767px) {
-  /* line 9, sass/src/sections/common.scss */
+  /* line 13, sass/src/sections/common.scss */
   html {
     font-size: 40px;
   }
 }
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 18, sass/src/sections/common.scss */
+  /* line 22, sass/src/sections/common.scss */
   html {
     font-size: 40px;
   }
 }
-/* line 27, sass/src/sections/common.scss */
+/* line 31, sass/src/sections/common.scss */
 #background-imgs, .black-screen {
   position: fixed;
   left: 0px;
@@ -243,7 +247,7 @@ html {
   top: -167px;
 }
 
-/* line 36, sass/src/sections/common.scss */
+/* line 40, sass/src/sections/common.scss */
 .black-screen {
   z-index: -1;
   background: black;
@@ -252,38 +256,38 @@ html {
   opacity: 0.8;
 }
 
-/* line 46, sass/src/sections/common.scss */
+/* line 50, sass/src/sections/common.scss */
 * {
   font-size: 1rem;
 }
 
-/* line 50, sass/src/sections/common.scss */
+/* line 54, sass/src/sections/common.scss */
 .initially-transparent {
   opacity: 0;
 }
 
-/* line 54, sass/src/sections/common.scss */
+/* line 58, sass/src/sections/common.scss */
 #content-container {
   position: relative;
 }
 
-/* line 58, sass/src/sections/common.scss */
+/* line 62, sass/src/sections/common.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 61, sass/src/sections/common.scss */
+/* line 65, sass/src/sections/common.scss */
 .section-header {
   margin-top: 15px;
   margin-bottom: 40px;
 }
-/* line 65, sass/src/sections/common.scss */
+/* line 69, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
   font-size: 3.4rem;
 }
 
-/* line 73, sass/src/sections/common.scss */
+/* line 77, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
@@ -295,7 +299,7 @@ h3 {
   height: 75px;
   visibility: hidden;
 }*/
-/* line 87, sass/src/sections/common.scss */
+/* line 91, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
@@ -394,15 +398,20 @@ h3 {
   background-color: #33D192;
 }
 
-/* line 12, sass/src/sections/InfoSection.scss */
+/* line 17, sass/src/sections/InfoSection.scss */
 .sections-infosection {
   color: white;
   min-height: 600px;
 }
-/* line 5, sass/src/sections/InfoSection.scss */
-.sections-infosection td.vertical-text {
-  font-size: 1.3rem;
+/* line 6, sass/src/sections/InfoSection.scss */
+.sections-infosection div.vertical-text {
+  width: 200px;
   font-weight: bold;
+}
+/* line 11, sass/src/sections/InfoSection.scss */
+.sections-infosection .info-table {
+  table-layout: fixed;
+  width: "100%";
 }
 
 /* line 10, sass/src/sections/ProjectSection.scss */

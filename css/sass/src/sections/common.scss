@@ -2,6 +2,10 @@ html{
   font-size: $font-base-size;
   font-family: 'Montserrat', 'sans-serif';
   font-color: $font-color;
+
+  *{
+      word-break: break-word;
+  }
 }
 
 /* Extra Small */

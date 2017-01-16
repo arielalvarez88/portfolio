@@ -1,14 +1,19 @@
-@mixin sections-infosection(){
+@mixin sections-infosection() {
+    color: white;
+    min-height: 600px;
 
-  color: white;
-  min-height: 600px;
-  td.vertical-text{
-    font-size: 1.3rem;
-    font-weight: bold;
-  }
 
+    div.vertical-text{
+      width: 200px;
+      font-weight: bold;
+
+    }
+    .info-table {
+        table-layout: fixed;
+        width: "100%";
+    }
 }
 
-.sections-infosection{
-  @include sections-infosection();
+.sections-infosection {
+    @include sections-infosection();
 }
