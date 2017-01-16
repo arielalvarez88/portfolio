@@ -290,9 +290,10 @@ html * {
 /* line 76, sass/src/sections/common.scss */
 .navbar-brand {
   font-size: 1rem;
+  height: auto;
 }
 
-/* line 80, sass/src/sections/common.scss */
+/* line 81, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
@@ -304,7 +305,7 @@ h3 {
   height: 75px;
   visibility: hidden;
 }*/
-/* line 94, sass/src/sections/common.scss */
+/* line 95, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
