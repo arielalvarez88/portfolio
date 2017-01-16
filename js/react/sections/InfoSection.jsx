@@ -16,7 +16,7 @@ export class InfoSection extends React.Component {
                         <h2 className="" id="section-infosection-header">Info</h2>
                     </div>
 
-                    <div className="col-xs-8 col-sm-offset-2 appear animation-element">
+                    <div className="col-xs-10 col-sm-offset-1 appear animation-element">
                         <table className="info-table">
                             <tr>
                                 <td >
@@ -35,10 +35,10 @@ export class InfoSection extends React.Component {
                                     Phone: 1-829-383-4141
                                     <br/>
                                     <br/>
-                                    LinkedIn: https://do.linkedin.com/in/ariel-alvarez-86b11a88
+                                    LinkedIn: <a href="https://do.linkedin.com/in/ariel-alvarez-86b11a88">https://do.linkedin.com/in/ariel-alvarez-86b11a88</a>
                                     <br/>
                                     <br/>
-                                    GitHub: https://github.com/arielalvarez88
+                                    GitHub: <a href="https://github.com/arielalvarez88">https://github.com/arielalvarez88</a>
                                     <br/>
                                     <br/>
                                     Portfolio: You are seeing it.

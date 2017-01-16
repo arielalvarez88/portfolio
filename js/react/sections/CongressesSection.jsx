@@ -30,8 +30,7 @@ export class CongressesSection extends React.Component {
                                         <br/>
                                         Description: International congress about the latest Python technologies and newest tendencies in the software industry.
                                         <br/>
-                                        Link:
-                                        <a href="http://pycaribbean.com/" target="_blank">here.</a>
+                                        Link: <a href="http://pycaribbean.com/" target="_blank">here.</a>
                                     </li>
 
                                     <li>

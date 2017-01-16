@@ -226,14 +226,14 @@ html * {
 @media (max-width: 767px) {
   /* line 13, sass/src/sections/common.scss */
   html {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 22, sass/src/sections/common.scss */
   html {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 /* line 31, sass/src/sections/common.scss */
@@ -284,7 +284,7 @@ html * {
 /* line 69, sass/src/sections/common.scss */
 .section-header h2 {
   text-align: center;
-  font-size: 3.4rem;
+  font-size: 3rem;
 }
 
 /* line 77, sass/src/sections/common.scss */
@@ -398,7 +398,7 @@ h3 {
   background-color: #33D192;
 }
 
-/* line 17, sass/src/sections/InfoSection.scss */
+/* line 18, sass/src/sections/InfoSection.scss */
 .sections-infosection {
   color: white;
   min-height: 600px;
@@ -411,7 +411,8 @@ h3 {
 /* line 11, sass/src/sections/InfoSection.scss */
 .sections-infosection .info-table {
   table-layout: fixed;
-  width: "100%";
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* line 10, sass/src/sections/ProjectSection.scss */
@@ -453,7 +454,7 @@ h3 {
 }
 /* line 9, sass/src/widgets/BulletBox.scss */
 .widgets-bulletbox ul {
-  color: #8e8e8e;
+  color: white;
   padding: 0 10px;
 }
 /* line 14, sass/src/widgets/BulletBox.scss */
