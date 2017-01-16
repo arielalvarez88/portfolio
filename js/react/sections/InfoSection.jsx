@@ -46,30 +46,7 @@ export class InfoSection extends React.Component {
                                 </td>
                             </tr>
                         </table>
-
-                        {/*<table className="info-table visible-xs">
-                            <tr>
-                                <td>Full Name: Ariel Alvarez
-                                    <br/>
-                                    <br/>
-                                    Email: arielalvarez88@gmail.com
-                                    <br/>
-                                    <br/>
-                                    Phone: 1-829-383-4141
-                                    <br/>
-                                    <br/>
-                                    LinkedIn: <a href="https://do.linkedin.com/in/ariel-alvarez-86b11a88">https://do.linkedin.com/in/ariel-alvarez-86b11a88</a>
-                                    <br/>
-                                    <br/>
-                                    GitHub: <a href="https://github.com/arielalvarez88">https://github.com/arielalvarez88</a>
-                                    <br/>
-                                    <br/>
-                                    Portfolio: You are seeing it.
-
-                                </td>
-                            </tr>
-                        </table> */}
-
+                        
 
                     </div>
                 </div>

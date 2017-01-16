@@ -404,7 +404,7 @@ h3 {
   background-color: #33D192;
 }
 
-/* line 18, sass/src/sections/InfoSection.scss */
+/* line 21, sass/src/sections/InfoSection.scss */
 .sections-infosection {
   color: white;
   min-height: 600px;
@@ -419,6 +419,10 @@ h3 {
   table-layout: fixed;
   margin-right: auto;
   margin-left: auto;
+}
+/* line 16, sass/src/sections/InfoSection.scss */
+.sections-infosection * {
+  word-break: break-all;
 }
 
 /* line 10, sass/src/sections/ProjectSection.scss */
