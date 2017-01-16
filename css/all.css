@@ -287,7 +287,12 @@ html * {
   font-size: 3rem;
 }
 
-/* line 77, sass/src/sections/common.scss */
+/* line 76, sass/src/sections/common.scss */
+.navbar-brand {
+  font-size: 1rem;
+}
+
+/* line 80, sass/src/sections/common.scss */
 h3 {
   font-size: 1.5rem;
 }
@@ -299,7 +304,7 @@ h3 {
   height: 75px;
   visibility: hidden;
 }*/
-/* line 91, sass/src/sections/common.scss */
+/* line 94, sass/src/sections/common.scss */
 .vertical-text {
   transform: rotate(-90deg);
   text-align: center;
