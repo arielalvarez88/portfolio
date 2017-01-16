@@ -16,10 +16,10 @@ export class InfoSection extends React.Component {
                         <h2 className="" id="section-infosection-header">Info</h2>
                     </div>
 
-                    <div className="col-xs-10 col-sm-offset-1 appear animation-element">
-                        <table className="info-table">
+                    <div className="col-xs-10 col-xs-offset-1 appear animation-element">
+                        <table className="info-table" >
                             <tr>
-                                <td >
+                                <td className="hidden-xs">
                                   <div id="vertical-text" className="vertical-text">
                                     Passion for software.
                                   </div>
@@ -46,25 +46,30 @@ export class InfoSection extends React.Component {
                                 </td>
                             </tr>
                         </table>
-                        {/*<div className="vertical-text col-xs-1" style={{height:550}}>Passion for software</div>
-                        <div className="col-xs-11" style={{height:550}}>
-                            Full Name: Ariel Alvarez
-                              <br/>
-                              <br/>
-                              Email: arielalvarez88@gmail.com
-                              <br/>
-                              <br/>
-                              Phone: 1-829-383-4141
-                              <br/>
-                              <br/>
-                              LinkedIn: https://do.linkedin.com/in/ariel-alvarez-86b11a88
-                              <br/>
-                              <br/>
-                              GitHub: https://github.com/arielalvarez88
-                              <br/>
-                              <br/>
-                              Portfolio: You are seeing it.
-                        </div>*/}
+
+                        {/*<table className="info-table visible-xs">
+                            <tr>
+                                <td>Full Name: Ariel Alvarez
+                                    <br/>
+                                    <br/>
+                                    Email: arielalvarez88@gmail.com
+                                    <br/>
+                                    <br/>
+                                    Phone: 1-829-383-4141
+                                    <br/>
+                                    <br/>
+                                    LinkedIn: <a href="https://do.linkedin.com/in/ariel-alvarez-86b11a88">https://do.linkedin.com/in/ariel-alvarez-86b11a88</a>
+                                    <br/>
+                                    <br/>
+                                    GitHub: <a href="https://github.com/arielalvarez88">https://github.com/arielalvarez88</a>
+                                    <br/>
+                                    <br/>
+                                    Portfolio: You are seeing it.
+
+                                </td>
+                            </tr>
+                        </table> */}
+
 
                     </div>
                 </div>

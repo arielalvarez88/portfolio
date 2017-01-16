@@ -226,14 +226,14 @@ html * {
 @media (max-width: 767px) {
   /* line 13, sass/src/sections/common.scss */
   html {
-    font-size: 35px;
+    font-size: 15px;
   }
 }
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 22, sass/src/sections/common.scss */
   html {
-    font-size: 35px;
+    font-size: 15px;
   }
 }
 /* line 31, sass/src/sections/common.scss */
