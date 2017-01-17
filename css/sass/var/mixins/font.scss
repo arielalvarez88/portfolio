@@ -1,4 +1,4 @@
-@import "../sections/common";
+@import "var/sections/common";
 
 @function strip-unit($num) {
   @return $num / ($num * 0 + 1);

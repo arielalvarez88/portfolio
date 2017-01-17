@@ -20,7 +20,7 @@ export class SkillsSection extends React.Component {
                     <div className="row skill-section">
 
                         <div className="animation-element appear-from-left col-md-6 row">
-                            <div className="col-md-6">
+                            <div className="col-md-6 skill-item-container">
                                 <SkillItem title="Programming languages and techonologies" img="programming-languages">
                                     <ul>
                                         <li>Javascript (advanced)</li>
@@ -32,7 +32,7 @@ export class SkillsSection extends React.Component {
                                 </SkillItem>
                             </div>
 
-                            <div className="col-md-6">
+                            <div className="col-md-6 skill-item-container">
                                 <SkillItem title="Software Design" img="software-design">
                                     <ul>
                                         <li>Design Patterns (advanced)</li>
@@ -46,7 +46,7 @@ export class SkillsSection extends React.Component {
                         </div>
 
                         <div className="animation-element appear-from-right col-md-6 row">
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="Web Development" img="web-development">
                                     <ul>
                                         <li>Angular JS 1 and 2 (begginer)</li>
@@ -65,7 +65,7 @@ export class SkillsSection extends React.Component {
                                 </SkillItem>
                             </div>
 
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="Mobile Development" img="mobile-development">
                                     <ul>
                                         <li>Android SDK</li>
@@ -77,7 +77,7 @@ export class SkillsSection extends React.Component {
 
                     <div className="row skill-section">
                         <div className="animation-element appear-from-left col-md-6 row">
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="Machine Learning" img="machine-learning">
                                     <ul>
                                         <li>Scikit Learn (intermediate)</li>
@@ -98,7 +98,7 @@ export class SkillsSection extends React.Component {
                                 </SkillItem>
                             </div>
 
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="Version Control System" img="version-control">
                                     <ul>
                                         <li>Git (advanced)</li>
@@ -109,7 +109,7 @@ export class SkillsSection extends React.Component {
 
                         <div className="animation-element appear-from-right col-md-6 row">
 
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="Databases" img="database">
                                     <ul>
                                         <li>Oracle (intermediate)</li>
@@ -120,7 +120,7 @@ export class SkillsSection extends React.Component {
                                 </SkillItem>
                             </div>
 
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="OS and tools" img="tools">
                                     <ul>
                                         <li>Linux (intermediate)</li>

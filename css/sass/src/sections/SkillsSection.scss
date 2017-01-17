@@ -1,3 +1,6 @@
+@import 'var/sections/common';
+@import 'var/mixins/font';
+
 @mixin sections-skillssection(){
 
   background: $section-color-dark;
@@ -11,9 +14,21 @@
     text-align: center;
   }
 
-
   .skill-section > div{
-        @include rem-fallback(margin, 30, 0);
+
+        margin-bottom: 5px;
+  }
+
+  /* Medium Devices and up*/
+   @media only screen and (min-width : 992px) {
+     .skill-section > div{
+           @include rem-fallback(margin, 30, 0);
+     }
+   }
+
+
+  .skill-item-container{
+    margin-bottom: 5px;
   }
 
   .skill-section li {

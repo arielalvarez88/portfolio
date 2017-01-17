@@ -21,7 +21,7 @@ export class Certifications extends React.Component {
                         </h2>
                     </div>
 
-                    <div className="row animation-element appear-from-left">
+                    <div className="animation-element appear-from-left">
                         <EducationItem title="All" iconName="diploma.svg">
                             <ul>
                                 <li>
