@@ -1,11 +1,7 @@
 /*jshint esversion: 6 */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {EducationItem} from '../widgets/EducationItem.js';
-import {Undergraduate} from './education/Undergraduate.js';
-
-import {Mobile} from './education/Mobile.js';
+import {FormalEducation} from "./education/FormalEducation.js";
 
 export class EducationSection extends React.Component {
 
@@ -20,7 +16,10 @@ export class EducationSection extends React.Component {
 
                     <div className="row">
                         <div className="col-md-6 animation-element appear-from-left">
-                            <Undergraduate/>
+                            <FormalEducation title={"Undergraduate"} degreeName={"Telecommunications Engineer (2016)"} organization={"Georgia Tech"} location={"Online"}/>
+                        </div>
+                        <div className="col-md-6 animation-element appear-from-right">
+                            <FormalEducation title={"Graduate"} degreeName={"Masters Computer Science specialization Machine Learning (Ongoing)"} organization={"Georgia Tech"} location={"Online"}/>
                         </div>
 
                     </div>

@@ -1,8 +1,7 @@
 /*jshint esversion: 6 */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import PropTypes from "prop-types";
 export class BulletBox extends React.Component{
 
   render(){
@@ -15,10 +14,25 @@ export class BulletBox extends React.Component{
         </h3>
 
         <ul>
-          {this.props.children}
+          {this.props.bullets.map((bullet, idx)=>(
+              <li key={idx}>
+                  <div className="text">
+                      {bullet.text}
+                  </div>
+                  {idx < this.props.bullets.length - 1 && <hr/>}
+              </li>
+          ))}
         </ul>
       </div>
     );
 
   }
 }
+
+BulletBox.propTypes = {
+  bullets: PropTypes.arrayOf(PropTypes.shape({text: PropTypes.string})),
+  title:   PropTypes.string,
+  className: PropTypes.string,
+  headerClass: PropTypes.string,
+  subText: PropTypes.string,
+};
