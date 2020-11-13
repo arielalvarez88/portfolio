@@ -396,11 +396,11 @@ h3 {
   padding: 0 20px;
 }
 /* line 20, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection .bullet-box-container:nth-of-type(3n) .widgets-bulletbox h3 {
+.sections-experiencesection .bullet-box-container:nth-of-type(3n).widgets-bulletbox h3 {
   background-color: #39AFE1;
 }
 /* line 27, sass/src/sections/ExperienceSection.scss */
-.sections-experiencesection .bullet-box-container:nth-of-type(2n) .widgets-bulletbox h3 {
+.sections-experiencesection .bullet-box-container:nth-of-type(2n).widgets-bulletbox h3 {
   background-color: #33D192;
 }
 

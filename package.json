@@ -18,10 +18,13 @@
     "babel-preset-react": "^6.16.0",
     "bootstrap": "3.3.7",
     "browserify": "*",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "watch": "^1.0.2"
   },
   "scripts": {
-    "start": "yarn compile && yarn bundle && node server.js",
+    "start": "compile-bundle && node server.js",
+    "compile-bundle": "yarn compile && yarn bundle",
+    "dev": "node server.js | watch 'yarn compile-bundle' js css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel js/react -d lib",
     "bundle": "browserify lib/all.js -o lib/all-bundle.js"
