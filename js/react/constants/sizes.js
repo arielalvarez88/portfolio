@@ -1,0 +1,1 @@
+export const BootstrapSizes = Object.freeze({MEDIUM: 768});

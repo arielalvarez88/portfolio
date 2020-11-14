@@ -42,23 +42,32 @@
   }
 }
 
-
-
-.in-view.appear{
-  animation-name: appear;
-  animation-duration: 5s;
+.appear{
+  opacity: 0;
+  &.in-view{
+    animation-name: appear;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
 }
 
-.in-view.appear-from-left{
-  position: relative;
-  animation-name: appear-from-left;
-  animation-duration: 2s;
+.appear-from-left{
+  opacity: 0;
+  &.in-view{
+    position: relative;
+    animation-name: appear-from-left;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 
+  }
 }
 
-.in-view.appear-from-right{
-  position: relative;
-  animation-name: appear-from-right;
-  animation-duration: 2s;
-
+.appear-from-right{
+  opacity: 0;
+  &.in-view{
+    position: relative;
+    animation-name: appear-from-right;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+  }
 }

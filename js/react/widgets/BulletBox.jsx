@@ -30,7 +30,7 @@ export class BulletBox extends React.Component{
 }
 
 BulletBox.propTypes = {
-  bullets: PropTypes.arrayOf(PropTypes.shape({text: PropTypes.string})),
+  bullets: PropTypes.arrayOf(PropTypes.shape({text: PropTypes.node})),
   title:   PropTypes.string,
   className: PropTypes.string,
   headerClass: PropTypes.string,

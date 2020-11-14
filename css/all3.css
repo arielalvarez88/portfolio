@@ -1,0 +1,73 @@
+/*
+Error: File to import not found or unreadable: compass/reset.
+        on line 6 of css/sass/screen.scss
+        from line 43 of css/sass/all.scss
+
+1: /* ============================================================ *\
+2: 
+3:   #MAIN
+4: 
+5:   Author:  Ariel Alvarez
+6:   Website: You are on it
+7: 
+8: /* ============================================================ *\/
+9: 
+10: /**
+11: * CONTENTS
+
+Backtrace:
+css/sass/screen.scss:6
+css/sass/all.scss:43
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:45:in `import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/bin/sass:23:in `load'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/bin/sass:23:in `<main>'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/arielalvarez/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 6 of css/sass/screen.scss\A         from line 43 of css/sass/all.scss\A \A 1: /* ============================================================ *\\A 2: \A 3:   #MAIN\A 4: \A 5:   Author:  Ariel Alvarez\A 6:   Website: You are on it\A 7: \A 8: /* ============================================================ */\A 9: \A 10: /**\A 11: * CONTENTS"; }

@@ -1,4 +1,4 @@
-@import  'src/widgets/EducationItem';
+@import  '../widgets/EducationItem';
 @mixin sections-educationsection(){
 
   @include education-item-white-background();

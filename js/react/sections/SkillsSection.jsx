@@ -49,15 +49,16 @@ export class SkillsSection extends React.Component {
                             <div className="col-md-6 col-sm-12 skill-item-container">
                                 <SkillItem title="Web Development" img="web-development">
                                     <ul>
-                                        <li>Angular JS 1 and 2 (begginer)</li>
+                                        <li>ReactJS (advanced)</li>
+                                        <li>NodeJS (advanced)</li>
+                                        <li>MongoDB (intermediate)</li>
+                                        <li>Firebase (advanced)</li>
+                                        <li>Angular JS and Angular (begginer)</li>
                                         <li>IndexedDB (intermediate)</li>
-                                        <li>ReactJS (intermediate)</li>
                                         <li>JavaEE (intermediate)</li>
                                         <li>Websockets (intermediate)</li>
                                         <li>JQuery (advanced)</li>
-                                        <li>IndexedDB (intermediate)</li>
                                         <li>ExtJS (advanced)</li>
-                                        <li>Firebase (beginner)</li>
                                         <li>Bootstrap (intermediate)</li>
                                         <li>Sass (intermediate)</li>
 

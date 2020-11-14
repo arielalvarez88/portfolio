@@ -1,5 +1,5 @@
-@import 'var/mixins/font';
-@import 'var/sections/common';
+@import '../../var/mixins/font';
+@import '../../var/sections/common';
 @mixin education-item-white-background(){
   .widgets-educationitem{
     color: $font-color-gray;

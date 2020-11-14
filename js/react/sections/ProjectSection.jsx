@@ -10,7 +10,7 @@ export class ProjectSection extends React.Component {
     render() {
 
         return (
-            <section id={this.props.id} className="category sections-projectsection appear">
+            <section id={this.props.id} className="category sections-projectsection">
                 <div className="container">
                     <div className="section-header">
                         <h2>Projects</h2>
@@ -92,6 +92,33 @@ export class ProjectSection extends React.Component {
                         </AccordionPanel>
 
                         <AccordionPanel theme="web-development" title="Web development">
+                            <div className="project">
+                                <span className="bold"> Meteor Fantasy Sport -
+                                </span>
+                                Developed front end for the front page: <a href={"https://www.ciom.tech/"}>https://www.ciom.tech/</a>, backend and front end of new product pricing module, and many other modules in this project which is about letting common people earn money by providing services of mystery shopper and product pricing reporting.
+                                <br/>
+                                <span className="bold">URLs:
+                                </span>
+                                <a href="https://www.ciom.tech/" target="_blank">https://www.ciom.tech/</a>
+                                <br/>
+                                <span className="bold">Technologies:
+                                </span>
+                                ReactJS, Firebase/Firestore, MongoDB, NodeJS
+                            </div>
+
+                            <div className="project">
+                                <span className="bold"> Meteor Fantasy Sport -
+                                </span>
+                                Developed backend and an administration web site to manage the content of a fantasy sports game. The backend calculates points for each player based on the results of real games of different sports, determine winners in order process
+                                <br/>
+                                <span className="bold">URLs:
+                                </span>
+                                <a href="https://www.meteorfantasy.com" target="_blank">https://www.meteorfantasy.com/</a>
+                                <br/>
+                                <span className="bold">Technologies:
+                                </span>
+                                ReactJS, Firebase/Firestore, MongoDB, NodeJS
+                            </div>
 
                             <div className="project">
                                 <span className="bold">Personal Portfolio -

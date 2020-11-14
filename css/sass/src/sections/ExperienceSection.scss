@@ -16,15 +16,15 @@
     padding: 0 20px;
   }
 
-  .bullet-box-container:nth-of-type(3n) .widgets-bulletbox{
-    section{
+  .bullet-box-container:nth-of-type(3n).widgets-bulletbox{
+    h3{
       background-color: #39AFE1;
     }
 
   }
 
-  .bullet-box-container:nth-of-type(2n) .widgets-bulletbox{
-    section{
+  .bullet-box-container:nth-of-type(2n).widgets-bulletbox{
+    h3{
       background-color: #33D192;
     }
 

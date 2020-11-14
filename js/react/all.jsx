@@ -10,22 +10,25 @@ import {EducationSection} from './sections/EducationSection.js';
 import {Certifications} from './sections/Certifications.js';
 import {CoursesSection} from './sections/CoursesSection.js';
 import {CongressesSection} from './sections/CongressesSection.js';
+import {Navbar} from './widgets/Navbar.js';
 
 var pageTpl = (
 <div>
+    <Navbar/>
+    <div>
 
-    <div className="black-screen"></div>
-    <InfoSection id="section-infosection" className="first-section"/>
-    <SkillsSection id="section-skillssection"/>
-    <ProjectSection id="section-projectssection"/>
-    <ExperienceSection id="section-experiencesection"/>
-    <EducationSection id="section-educationsection"/>
-    <Certifications id="section-certificationssection"/>
-    <CongressesSection id="section-congressessection" />
-    <CoursesSection id="section-coursessection" className="last-section"/>
+        <div className="black-screen"></div>
+        <InfoSection id="section-infosection" className="first-section"/>
+        <SkillsSection id="section-skillssection"/>
+        <ProjectSection id="section-projectssection"/>
+        <ExperienceSection id="section-experiencesection"/>
+        <EducationSection id="section-educationsection"/>
+        <Certifications id="section-certificationssection"/>
+        <CongressesSection id="section-congressessection" />
+        <CoursesSection id="section-coursessection" className="last-section"/>
 
+    </div>
 </div>
-
 );
 
 ReactDOM.render(pageTpl,document.getElementById("jsx-app"));
